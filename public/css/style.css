@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+/* ESTILOS GENERALES */
+:root {
+    
+    /* colores */
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+
+    /* tamaños tipográficos */
+    --cuerpo-texto: 12px;
+    --titulo: 24px;
+    --precio: 18px;
+    --desc: 16px;
+    --descripciones: 16px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gris-claro);
+}
+h3 {
+    font-size: var(--titulo);
+}
+
+p.precios {
+    font-size: var(--precio);
+}
+
+p.desc {
+    font-size: var(--desc);
+}
+
+.banner {
+    display: none;
+}
+
+header {
+    background-color: var(--amarillo);
+}
+.logo-header {
+    margin-left: 1.7rem;
+    padding: 2rem 0 1rem 0;
+    width: 60%;
+}
+
+.search-input {
+    margin-left: 1.5rem;
+}
+
+.header-text {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.burguer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+.burguer-menu i{
+    background-color: var(--celeste);
+    color: var(--gris-claro);
+    padding: 0.9rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.product-info img {
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    margin: 8px;
+}
+
+footer h4 {
+    color: var(--gris-oscuro);
+    font-size: 1.1rem;
+}
+
+footer div.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    text-align: center;
+}
+
+footer div.article i {
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer p.copy{
+    text-align: center;
+    padding: 2rem 0;   
+}
+
+footer .article-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
